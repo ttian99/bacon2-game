@@ -1,0 +1,25 @@
+{
+  "name": "bacon2-game",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Cocos Creator",
+  "main": "main.js",
+  "main-menu": {
+    "bacon2-game/open": {
+      "message": "bacon2-game:open"
+    },
+    "bacon2-game/hello": {
+      "message": "bacon2-game:say-hello"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "bacon2-game",
+    "width": 400,
+    "height": 300
+  },
+  "dependencies": {
+    "xlsx": "^0.15.1"
+  }
+}
